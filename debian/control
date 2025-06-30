@@ -63,7 +63,8 @@ Depends: ${misc:Depends},
  plymouth-theme-gxde-logo-live,
  kdiskmark,
  testdisk,
- gsmartcontrol
+ gsmartcontrol,
+ pastebinit,
 Recommends:
  wireless-tools,
  ttf-deepin-opensymbol,
