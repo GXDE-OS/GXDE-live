@@ -61,6 +61,9 @@ Depends: ${misc:Depends},
  deepin-clone,
  aptitude,
  plymouth-theme-gxde-logo-live,
+ kdiskmark,
+ testdisk,
+#gsmartcontrol
 Recommends:
  wireless-tools,
  ttf-deepin-opensymbol,
