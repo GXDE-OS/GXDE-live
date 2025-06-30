@@ -1,3 +1,4 @@
 #!/bin/bash
 systemctl enable lightdm
 rm -rf /usr/share/music/bensound-sunny.mp3
+rm -rf /usr/bin/dde-wm-chooser
