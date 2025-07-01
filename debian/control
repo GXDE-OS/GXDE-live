@@ -103,6 +103,9 @@ Conflicts:
  fantascene-dynamic-wallpaper,
  espeak-ng-data,
  gxde-app-upgrader,
+ gxde-shell-tools,
+ gxde-app-installer,
+ gxde-app-uninstaller,
 Replaces:
  gxde-top-panel,
  dde-grand-search,
@@ -133,6 +136,9 @@ Replaces:
  fantascene-dynamic-wallpaper,
  espeak-ng-data,
  gxde-app-upgrader,
+ gxde-shell-tools,
+ gxde-app-installer,
+ gxde-app-uninstaller,
 Provides:
  gxde-top-panel,
  dde-grand-search,
@@ -163,6 +169,9 @@ Provides:
  fantascene-dynamic-wallpaper,
  espeak-ng-data,
  gxde-app-upgrader,
+ gxde-shell-tools,
+ gxde-app-installer,
+ gxde-app-uninstaller,
 Description: GXDE New Desktop Environment - Next
  This is a meta package depends GXDE New Desktop Envrionment.
  .
