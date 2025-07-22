@@ -67,7 +67,8 @@ Depends: ${misc:Depends},
  pastebinit,
  gxde-boot-maker,
  gxde-lang-selector,
- com.uostools.livecdtools
+ com.uostools.livecdtools,
+ com.oray.sunlogin.client
 Recommends:
  wireless-tools,
  ttf-deepin-opensymbol,
