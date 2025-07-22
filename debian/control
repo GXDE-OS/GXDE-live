@@ -56,7 +56,7 @@ Depends: ${misc:Depends},
  deepin-system-monitor,
  remmina,
  com.gitee.deepin-opensource.desktop-entry-editor,
- cpux,
+ cpux [amd64 arm64],
  timeshift,
  deepin-clone,
  aptitude,
@@ -66,6 +66,8 @@ Depends: ${misc:Depends},
  gsmartcontrol,
  pastebinit,
  gxde-boot-maker,
+ gxde-lang-selector,
+ com.uostools.livecdtools
 Recommends:
  wireless-tools,
  ttf-deepin-opensymbol,
@@ -107,6 +109,8 @@ Conflicts:
  gxde-shell-tools,
  gxde-app-installer,
  gxde-app-uninstaller,
+ gxde-kwin-wayland,
+ gxde-kwin-wayland-backend-drm,
 Replaces:
  gxde-top-panel,
  dde-grand-search,
@@ -140,6 +144,8 @@ Replaces:
  gxde-shell-tools,
  gxde-app-installer,
  gxde-app-uninstaller,
+ gxde-kwin-wayland,
+ gxde-kwin-wayland-backend-drm,
 Provides:
  gxde-top-panel,
  dde-grand-search,
@@ -173,6 +179,8 @@ Provides:
  gxde-shell-tools,
  gxde-app-installer,
  gxde-app-uninstaller,
+ gxde-kwin-wayland,
+ gxde-kwin-wayland-backend-drm,
 Description: GXDE New Desktop Environment - Next
  This is a meta package depends GXDE New Desktop Envrionment.
  .

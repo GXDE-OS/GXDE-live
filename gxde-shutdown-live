@@ -1,0 +1,6 @@
+#!/bin/bash
+garma --question --text "你确定要关机吗？"
+if [[ $? == 0 ]]; then
+	echo Poweroff
+	poweroff
+fi

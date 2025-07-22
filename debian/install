@@ -1,1 +1,2 @@
 gxde-live.rules usr/share/polkit-1/rules.d/
+gxde-shutdown-live usr/bin

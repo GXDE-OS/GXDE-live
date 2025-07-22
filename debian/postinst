@@ -6,3 +6,4 @@ rm -rf /usr/share/applications/gxde-control-center.desktop
 rm -rf /lib/dde-dock
 rm -rf /lib/gxde-dock/libtrash.so
 rm -rf /lib/gxde-dock/libnotify.so
+cp /usr/bin/gxde-shutdown-live /usr/bin/dde-shutdown
