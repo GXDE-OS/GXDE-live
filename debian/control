@@ -69,7 +69,8 @@ Depends: ${misc:Depends},
  gxde-lang-selector,
  com.uostools.livecdtools,
  com.oray.sunlogin.client,
- libssl1.1
+ libssl1.1,
+ bash-pinyin-completion,
 Recommends:
  wireless-tools,
  ttf-deepin-opensymbol,
